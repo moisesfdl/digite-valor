@@ -1,7 +1,6 @@
 # digite-valor
 valor
 
-
 #include <iostream>
 using namespace std;
 struct Titular
@@ -19,17 +18,18 @@ int main(int argc, char** argv)
 {
 	int *ptr;
 	int cpf = '275.551.158-32';
-	float Num1, Num2;
+	float Num1[7]{0.50 , 0.25,  0.5, 0.0, -0.05, -0.25, -0.5 };
+	float Num2[7]{0.50 , 0.25,  0.5, 0.0, -0.05, -0.25, -0.5 };
 	cout<<"Digite Valor ";
-	cin>>Num1;
+	cin>>Num1[7];
 	cout<<"Digite o Seg Valor ";
-	cin>>Num2;
-	cout<<"Soma de Valor "<<Num1<<"+"<<Num2<<"="<<Soma(Num1, Num2);
+	cin>>Num2[7];
+	cout<<"Soma de Valor "<<Num1[7]<<"+"<<Num2[7]<<"="<<Soma(Num1[7], Num2[7]);
 	cout<<"\nValor Negativo ";
-	cin>>Num1;
+	cin>>Num1[7];
 	cout<<"Valor Positivo ";
-	cin>>Num2;
-	cout<<"Soma "<<Soma(Num1, Num2);
+	cin>>Num2[7];
+	cout<<"Soma "<<Soma(Num1[7], Num2[7]);
 	Property();
 	*ptr = cpf;
 	int &Ref = *ptr;
