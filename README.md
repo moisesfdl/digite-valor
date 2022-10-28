@@ -18,14 +18,14 @@ int main(int argc, char** argv)
 {
 	int *ptr;
 	int cpf = '275.551.158-32';
-	float Num1[7]{0.50 , 0.25,  0.05, 0.0, -0.05, -0.25, -0.5 };
-	float Num2[7]{0.50 , 0.25,  0.05, 0.0, -0.05, -0.25, -0.5 };
+	double Num1[7]{0.50 , 0.25,  0.05, 0.0, -0.05, -0.25, -0.5 };
+	double Num2[7]{0.50 , 0.25,  0.05, 0.0, -0.05, -0.25, -0.5 };
 	cout<<"\tQual o valor\n\t[0.50]\t[0.25]\t[0.05]\t[0.0]\t[-0.05]\t[-0.25]\t[-0.5]\n";
 	cout<<"Digite Valor ";
 	cin>>Num1[7];
 	cout<<"Digite o Seg Valor ";
 	cin>>Num2[7];
-	cout<<"Soma de Valor "<<Num1[7]<<"+"<<Num2[7]<<"="<<Soma(Num1[7], Num2[7]);
+	cout<<"Soma de Valor "<<Num1[7]<<" + "<<Num2[7]<<" = "<<Soma(Num1[7], Num2[7]);
 	cout<<"\nValor Negativo ";
 	cin>>Num1[7];
 	cout<<"Valor Positivo ";
