@@ -3,7 +3,6 @@ valor
 
 
 #include <iostream>
-
 using namespace std;
 float Soma(float Num1, float Num2);
 int main(int argc, char** argv)
